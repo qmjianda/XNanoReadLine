@@ -12,7 +12,9 @@ XNanoReadLine is an embedded line editing library that is similar to a simple GN
 
 #### Compilation
 ```shell
+sudo apt-get install cppcheck
 make
+make check
 ```
 #### Usage
 See example.c

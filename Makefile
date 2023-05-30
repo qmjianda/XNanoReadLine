@@ -15,4 +15,7 @@ clean:
 mkbuild:
 	mkdir -p $(OBJ_DIR)
 
+check: mkbuild
+	cppcheck --enable=all --inconclusive --std=posix ./  2>&1 | tee build/check.txt
+
 .PHONY: clean, mkbuild

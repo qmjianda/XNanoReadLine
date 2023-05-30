@@ -12,6 +12,7 @@ XNanoReadLine是一个嵌入式行编辑库，类似一个简易的GNU readline�
 
 #### 编译
 ```shell
+sudo apt-get install cppcheck
 make
 ```
 #### 使用
